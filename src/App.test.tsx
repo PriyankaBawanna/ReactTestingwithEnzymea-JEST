@@ -17,3 +17,13 @@ describe("Test Case For App", () => {
     expect(wrapper.exists(".name")).toEqual(true);
   });
 });
+test("Check Counter Component is render or Not ", () => {
+  const wrapper = shallow(<App />);
+  let result = wrapper.find("Counter").exists();
+  expect(result).toBe(true);
+});
+//Snap Shot
+// test("snapshots", () => {
+//   const wrapper = shallow(<App />);
+//   expect(wrapper).toMatchSnapshot();
+// });
