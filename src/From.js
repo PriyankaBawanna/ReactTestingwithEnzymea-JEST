@@ -1,4 +1,3 @@
-import { resolve } from "path";
 import { useState } from "react";
 
 const From = () => {

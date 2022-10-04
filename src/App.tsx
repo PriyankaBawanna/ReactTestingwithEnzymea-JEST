@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Counter from "./counter/Counter";
 import From from "./From";
+import InputApplication from "./InputAppliaction";
 
 class App extends React.Component<any, any> {
   constructor(props: any) {
@@ -18,6 +19,7 @@ class App extends React.Component<any, any> {
         </div>
         <Counter />
         <From />
+        <InputApplication />
       </>
     );
   }
