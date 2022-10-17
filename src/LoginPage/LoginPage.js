@@ -15,8 +15,8 @@ export default class LoginPage extends React.Component {
   };
   submitClick = () => {
     if (
-      this.state.username == "krishankantsinghal" &&
-      this.state.password == "krishankant123"
+      this.state.username == "Priyanka" &&
+      this.state.password == "Priyanka123"
     ) {
       this.setState({ isLogined: true });
     }
